@@ -1,0 +1,5 @@
+drivers/tests/*/*.eep
+drivers/tests/*/*.hex
+drivers/tests/*/*.o
+drivers/tests/*/*.d
+drivers/tests/*/*.elf
