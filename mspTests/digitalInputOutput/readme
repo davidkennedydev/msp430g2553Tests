@@ -1,0 +1,11 @@
+How configure and use inputs and outputs in msp430 mcu
+
+
+every port have 3 register of configuration and two mirrored register (represent the values on pins inputs/outputs)
+
+the register to select special or normal mode is PxSEL
+the register to select input or output mode is PxDir
+the register to select pullup or pulldown mode is PxREN
+
+the register to get inputs PxIN
+the register to set ouputs PxOUT
