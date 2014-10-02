@@ -1,0 +1,5 @@
+the header with definitions of registers are in /usr/include/msp/msp430x2xxx.h
+
+debug step-by-step in http://karuppuswamy.com/wordpress/2010/10/14/setup-build-and-debug-environment-for-msp430-mcus-using-mspgcc-and-mspdebug-in-ubuntu-linux/
+
+TODO put the step to step to debug aplications here

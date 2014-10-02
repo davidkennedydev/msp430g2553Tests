@@ -1,5 +1,5 @@
 CC=avr-g++
-CXXFLAGS=-std=c++11 -fpermissive -c -g -Os -Wall -fno-exceptions -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -MMD -DUSB_VID=null -DUSB_PID=null -DARDUINO=105
+CXXFLAGS=-std=c++1y -fpermissive -c -g -Os -Wall -fno-exceptions -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -MMD -DUSB_VID=null -DUSB_PID=null -DARDUINO=105
 SRC=$(wildcard *.cpp)
 OBJ=$(SRC:.cpp=.o)
 

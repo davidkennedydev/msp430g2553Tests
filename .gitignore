@@ -3,3 +3,9 @@ drivers/tests/*/*.hex
 drivers/tests/*/*.o
 drivers/tests/*/*.d
 drivers/tests/*/*.elf
+
+mspTests/*/*.eep
+mspTests/*/*.hex
+mspTests/*/*.o
+mspTests/*/*.d
+mspTests/*/*.elf
