@@ -3,9 +3,11 @@ drivers/tests/*/*.hex
 drivers/tests/*/*.o
 drivers/tests/*/*.d
 drivers/tests/*/*.elf
+drivers/tests/*/*.log
 
 mspTests/*/*.eep
 mspTests/*/*.hex
 mspTests/*/*.o
 mspTests/*/*.d
 mspTests/*/*.elf
+mspTests/*/*.log
