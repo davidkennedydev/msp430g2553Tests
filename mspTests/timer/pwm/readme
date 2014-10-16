@@ -1,0 +1,14 @@
+timer A0 have this output pins of port 1
+0 - TA0.TACLK
+1 - TA0.0
+2 - TA0.1
+5 - TA0.0
+6 - TA0.1
+
+timer A1 have this output pins of port 2
+0 - TA1.0
+1 - TA1.1
+2 - TA1.1
+3 - TA1.0
+4 - TA1.2
+5 - TA1.2
