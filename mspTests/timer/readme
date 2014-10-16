@@ -1,0 +1,13 @@
+the msp430g2553 have two A timers
+
+each timer have 3 capture compare units
+
+TA0 (port 1 outputs)
+ TA0.0
+ TA0.1 (can generate pwm)
+ TA0.2 (can generate pwm)
+
+TA1 (port 2 outputs)
+ TA1.0
+ TA1.1 (can generate pwm)
+ TA1.2 (can generate pwm)
