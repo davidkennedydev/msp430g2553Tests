@@ -1,0 +1,11 @@
+communication in UART mode use USCI module
+
+serial port can be readed in linux using the comands
+
+stty -F /dev/ttyACM0 cs8 9600
+screen /dev/ttyACM0 9600
+
+
+for correct working, start read the serial port then reset the msp, this will force msp restart the communication
+remember of wait the correct dispositive connection
+
