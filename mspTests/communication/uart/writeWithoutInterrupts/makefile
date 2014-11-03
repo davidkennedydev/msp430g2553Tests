@@ -21,6 +21,6 @@ debug: main.hex
 	$(MAKE) erase
 	
 erase:
-	mspdebug rf2500 erase #limpa a memoria do controlador
+	mspdebug --force-reset rf2500 erase #limpa a memoria do controlador
 
 cclean: erase clean
