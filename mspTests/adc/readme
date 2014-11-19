@@ -1,6 +1,16 @@
-The msp430g2553 have just the ADC10
+ADC can capture a analogic signal and represent than based on a referential voltage and number of representative bits
+
+The msp430g2553 have just the ADC10 (10 bits of resolution, exist ADC12 in msp430 family)
+the lowest value represented with ADC10 is 0 and the biggest 0x3ff.
+
+
+To get the captured value you need:
+
+ - divide the referencial voltage (the max value of voltage) by the quantity of possible values represeted with ADC (0x400, in ADC10), then you will have the voltage by each unit represented in ADC
+ - With the captured value you can divide the value by the voltage-by-unit (get on the step above), then you will have the value captured by adc how voltage
+
 
 Examples in this folder give a knowledge of how utilize ADC10,
-in the default pin
-in other pins
-together with uart comunication
+in the default pin (blink example)
+in other pins (other pins example)
+together with uart comunication (print the value capture throght usb)
