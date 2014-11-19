@@ -1,0 +1,6 @@
+The msp430g2553 have just the ADC10
+
+Examples in this folder give a knowledge of how utilize ADC10,
+in the default pin
+in other pins
+together with uart comunication
