@@ -7,7 +7,7 @@ the lowest value represented with ADC10 is 0 and the biggest 0x3ff.
 To get the captured value you need:
 
  - divide the referencial voltage (the max value of voltage) by the quantity of possible values represeted with ADC (0x400, in ADC10), then you will have the voltage by each unit represented in ADC
- - With the captured value you can divide the value by the voltage-by-unit (get on the step above), then you will have the value captured by adc how voltage
+ - With the captured value you can multiply the value by the voltage-by-unit (get on the step above), then you will have the value captured by adc how voltage
 
 
 Examples in this folder give a knowledge of how utilize ADC10,
