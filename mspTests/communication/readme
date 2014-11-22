@@ -1,0 +1,22 @@
+msp430 use USCI modules to comunication
+
+USCI_Ax support:
+	UART
+	Pulse shaping for IrDA comunications
+	Automatic baund rate detection for LIN communications
+	SPI
+
+USCI_Bx support:
+	I2C
+	SPI
+
+
+msp430g2553 have a USCI_A and a USCI_B:
+pins of USCI_A:
+	pin 1.1 RX
+	pin 1.2 TX
+
+pins of USCI_B:
+	pin 1.6 SCL
+	pin 1.7 SDA
+
