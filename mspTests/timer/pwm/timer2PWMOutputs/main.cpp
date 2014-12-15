@@ -9,7 +9,7 @@
 
 
 main() {
-	const int DUTY[2] = {50, 30}; // %
+	const float DUTY[2] = {50, 30}; // %
 
 	// select pwm output pins
 	// select p2.1 and p2.2 to TA1.1 and p2.4 and p2.5 to TA1.2
