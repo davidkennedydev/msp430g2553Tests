@@ -1,0 +1,3 @@
+MSP430g2553 have multiple insures with i2c usci b module, so see the datasheet and errata.
+Errata show a lot modifications on i2c.
+

@@ -1,0 +1,5 @@
+Solders with "Working" in the name work correctly
+Solders with "Errata" in the name had errata datasheet knowledge applied
+
+
+The complete behavior of the i2c communication with hmc5883l is not know at the moment, because of  that most of the codes here are empiric based.
