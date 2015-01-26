@@ -21,7 +21,7 @@ main() {
 
 	//timer Capture/Compare configuration
 	TA1CCR0 = 37500 / 1000; //PWM period of 1ms
-	TA1CCR1 = TA1CCR0 / (100 / DUTY); //count limit (16 bits)
+	TA1CCR1 = TA1CCR0 / (100.f / DUTY); //count limit (16 bits)
 	TA1CCTL1 = OUTMOD_7; //select outputmod reset/set -----\_____
 
 	//timer A configuration

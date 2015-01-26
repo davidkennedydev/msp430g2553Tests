@@ -21,15 +21,15 @@ main() {
 	// 150 kHz to cpu system clock
 
 	//timer Capture/Compare configuration
-	TACCR0 = 37500; //PWM period of 1s
-	TACCR1 = TACCR0 / (100 / DUTY); //count limit (16 bits)
-	TACCTLx = OUTMOD_7; //select outputmod reset/set -----\_____
+	TACCR0 = 0xffff; //PWM period of 1s
+	TACCR1 = TACCR0 / (100.f / DUTY); //count limit (16 bits)
+	TACCTL1 = OUTMOD_7; //select outputmod reset/set -----\_____
 
 	//timer A configuration
 	TACTL = TASSEL_2 | ID_2 | MC_1; //control register
 
 	while(true)
-		if (TACCTLx & BIT3)
+		if (TACCTL1 & BIT3)
 			P1OUT |= BIT0;
 		else
 			P1OUT &= ~BIT0;

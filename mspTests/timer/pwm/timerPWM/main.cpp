@@ -21,7 +21,7 @@ main() {
 
 	//timer Capture/Compare configuration
 	TACCR0 = 0xffff/1000; //PWM period of 1ms
-	TACCR1 = TACCR0 / (100 / DUTY); //count limit (16 bits)
+	TACCR1 = TACCR0 / (100.f / DUTY); //count limit (16 bits)
 	TACCTLx = OUTMOD_7; //select outputmod reset/set  -----\_____
 
 	//timer A configuration

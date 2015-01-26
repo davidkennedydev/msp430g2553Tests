@@ -23,8 +23,8 @@ main() {
 
 	//timer Capture/Compare configuration
 	TA1CCR0 = 37500 / 1000; //PWM period of 1ms
-	TA1CCR1 = TA1CCR0 / (100 / DUTY[0]); //count limit (16 bits) pin 2.1 and 2.2 duty cicle
-	TA1CCR2 = TA1CCR0 / (100 / DUTY[1]); //count limit (16 bits) pin 2.4 and 2.5 duty cicle
+	TA1CCR1 = TA1CCR0 / (100.f / DUTY[0]); //count limit (16 bits) pin 2.1 and 2.2 duty cicle
+	TA1CCR2 = TA1CCR0 / (100.f / DUTY[1]); //count limit (16 bits) pin 2.4 and 2.5 duty cicle
 	TA1CCTL1 = OUTMOD_7; //select outputmod reset/set -----\_____ to Capture Compare Unit 1
 	TA1CCTL2 = OUTMOD_7; //select outputmod reset/set -----\_____ to Capture Compare Unit 2
 
