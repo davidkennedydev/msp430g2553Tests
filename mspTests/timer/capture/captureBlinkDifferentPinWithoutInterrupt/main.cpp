@@ -2,7 +2,7 @@
  * generate pwm with the expected pulse and detect this
  * expects 2^16/2=32768 cicles in detection
  * this works on pin 1 of port 1 (commun used for uart comunication)
- * REMEMBER, remove the RX jumper of uart correction in lauchpad, before test
+ * REMEMBER, remove the led2 jumper of uart correction in lauchpad, before test
  * generate pwm in pin 6 of port 1 and capture by pin 0 of port 2
  */
 
