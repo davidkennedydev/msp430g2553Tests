@@ -1,4 +1,4 @@
-#include <msp/msp430g2553.h>
+#include <msp430g2553.h>
 
 /** Description:
  * change leds on while you press button

@@ -2,7 +2,7 @@ all: main.hex
 	mspdebug --force-reset rf2500 "prog main.hex"
 
 main.o: main.cpp
-	msp430-g++ -c -Os -Wall -ffunction-sections -fdata-sections -mmcu=msp430g2553 -DF_CPU=16000000L main.cpp -o main.o -I/usr/include -g
+	msp430-g++ -c -Os -Wall -ffunction-sections -fdata-sections -mmcu=msp430g2553 -DF_CPU=16000000L main.cpp -o main.o -g
 
 main.elf: main.o
 	msp430-gcc -Os -Wl -gc-sections -u main -mmcu=msp430g2553 -o main.elf main.o -lm -g
